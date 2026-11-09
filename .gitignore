@@ -1,0 +1,38 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Local databases and generated investigation data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+backend/uploads/
+dossiers/
+backend/dossiers/
+demo_docs/*
+backend/demo_docs/*
+!demo_docs/.gitkeep
+!backend/demo_docs/.gitkeep
+*.pdf
+
+# Logs and editor/OS files
+*.log
+npm-debug.log*
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
